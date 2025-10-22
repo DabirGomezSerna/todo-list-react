@@ -1,0 +1,191 @@
+body {
+  background-color: #282c34;
+}
+
+button {
+  color: black;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgb(241, 244, 216);
+  width: 60%;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+
+.input-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-input {
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.title-button {
+  margin-left: 1rem;
+  padding: 0.75rem 1.2rem;
+  background-color: rgb(130, 130, 225);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+}
+
+.input-form .title-button:disabled {
+  background-color: #ccc;
+  color: #696d76;
+  cursor: auto;
+}
+
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.filter-bar-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.filter-bar-container button {
+  padding: 0.75rem 1.2rem;
+  background-color: rgb(243, 245, 235);
+  color: rgb(105, 105, 177);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.3s;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+}
+
+.filter-bar-container .filter-button-all_all {
+  background-color: rgb(102, 102, 200);
+  color: white;
+}
+
+.filter-bar-container .filter-button-active_active {
+  background-color: rgb(102, 102, 200);
+  color: white;
+}
+
+.filter-bar-container .filter-button-done_done {
+  background-color: rgb(102, 102, 200);
+  color: white;
+}
+
+.todo-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.todo-items {
+  display: flex;
+  justify-content: left;
+  width: 25rem;
+  margin-top: 1rem;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.todo-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item-title{
+  margin-right: 1.5rem;
+}
+
+.todo-item-title input {
+  transform: scale(1.5);
+  margin: 1.5 rem;
+}
+
+.todo-item-title label {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+
+.todo-item-button button{
+  padding: 0.75rem 0.90rem;
+  background-color: rgb(224, 105, 107);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+
+.todo-item-button button:hover{
+  background-color: rgb(215, 55, 58);
+}
+
+.count-container{
+  margin-top: 3rem;
+}
+
+.count-container span{
+  font-size: 1.5rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
